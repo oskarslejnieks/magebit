@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Varela+Round&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Varela Round", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .left-container {
+  z-index: 51;
+  width: 680px;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f5fa));
+  background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
+}
+
+.container .left-container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 650px;
+  height: 20vh;
+}
+
+.container .left-container header .logo {
+  margin-left: 100px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .left-container header .logo img {
+  width: 25px;
+  height: 40px;
+}
+
+.container .left-container header .logo p {
+  margin-left: 15px;
+  font-size: 16px;
+  margin-top: 17px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.container .left-container header .header {
+  margin-left: 100px;
+  margin-top: 112px;
+}
+
+.container .left-container header .header a {
+  text-decoration: none;
+  margin: 10px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6a707b;
+}
+
+.container .left-container section {
+  margin-top: 150px;
+}
+
+.container .left-container section h1 {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #131821;
+  margin: 20px 0;
+  margin-left: 100px;
+}
+
+.container .left-container section p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #131821;
+  margin: 20px 0;
+  margin-left: 100px;
+}
+
+.container .left-container section .cupImage {
+  margin-left: 100px;
+}
+
+.container .left-container section form {
+  margin-left: 100px;
+}
+
+.container .left-container section form .arrow-div {
+  position: relative;
+  display: inline-block;
+}
+
+.container .left-container section form .arrow-div a {
+  text-decoration: none;
+}
+
+.container .left-container section form .arrow-div a button {
+  position: absolute;
+  right: 20px;
+  background-color: white;
+  border: none;
+  top: 13px;
+  font-size: 35px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.container .left-container section form .arrow-div input[type="text"] {
+  width: 663px;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid #e3e3e4;
+  border-left: 4px solid #4066a5;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .left-container section form .arrow-div input:focus {
+  -webkit-box-shadow: 1px 30px 14px -5px rgba(0, 0, 0, 0.075);
+          box-shadow: 1px 30px 14px -5px rgba(0, 0, 0, 0.075);
+  border: 1px solid #e3e3e4;
+  border-left: 4px solid #4066a5;
+  outline: none;
+}
+
+.container .left-container section form .arrow-div input:hover {
+  border: 2px solid #4066a5;
+  border-left: 4px solid #4066a5;
+}
+
+.container .left-container section form .arrow-div .errorOutput {
+  color: red;
+  margin: 0;
+}
+
+.container .left-container section form .inner-checkbox {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .left-container section form .inner-checkbox input[type="checkbox"] {
+  width: 26px;
+  height: 26px;
+  background: #4066a5;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container .left-container section form .inner-checkbox p {
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.container .left-container section form .inner-checkbox p a {
+  text-decoration: none;
+  color: black;
+}
+
+.container .left-container section .media {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .left-container section .media .sp1 {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0 10px;
+}
+
+.container .left-container section .media .sp1 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.container .left-container section .media .sp1 a span {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .left-container section .media .sp1 a:hover {
+  color: white;
+}
+
+.container .left-container section .media .sp1:hover {
+  background-color: #4267b2;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+          box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.container .left-container section .media .sp2 {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0 10px;
+}
+
+.container .left-container section .media .sp2 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.container .left-container section .media .sp2 a span {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .left-container section .media .sp2 a:hover {
+  color: white;
+}
+
+.container .left-container section .media .sp2:hover {
+  background-color: #c13584;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+          box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.container .left-container section .media .sp3 {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0 10px;
+}
+
+.container .left-container section .media .sp3 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.container .left-container section .media .sp3 a span {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .left-container section .media .sp3 a:hover {
+  color: white;
+}
+
+.container .left-container section .media .sp3:hover {
+  background-color: #1da1f2;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+          box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.container .left-container section .media .sp4 {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0 10px;
+}
+
+.container .left-container section .media .sp4 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.container .left-container section .media .sp4 a span {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .left-container section .media .sp4 a:hover {
+  color: white;
+}
+
+.container .left-container section .media .sp4:hover {
+  background-color: #ff0000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+          box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+.container .left-container section .media::before {
+  position: absolute;
+  content: "";
+  border-bottom: 1px solid black;
+  opacity: 0.3;
+  width: 500px;
+  margin-top: -50px;
+}
+
+.container .right-container {
+  width: 1620px;
+  height: 100vh;
+  background-image: url("images/background-right.png");
+  margin: 0;
+  z-index: 50;
+  background-repeat: no-repeat;
+}
+
+.container .right-container a {
+  text-decoration: none;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  padding: 20px;
+}
+
+.container .right-container a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.backButton {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+table {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+table table,
+table th,
+table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+  body {
+    background-image: url("images/background-right.png");
+    width: 100%;
+    background-size: 300% 150%;
+    background-repeat: no-repeat;
+  }
+  .container {
+    display: inline-block;
+  }
+  .container .left-container {
+    width: 100%;
+    background: none;
+  }
+  .container .left-container header {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+  }
+  .container .left-container header .logo {
+    margin: 15px 20px;
+  }
+  .container .left-container header .logo img {
+    width: 30px;
+    height: 60px;
+  }
+  .container .left-container header .logo p {
+    display: none;
+  }
+  .container .left-container header .header {
+    margin: auto;
+  }
+  .container .left-container header .header a {
+    font-size: 18px;
+    padding: 0;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 426px) and (min-width: 320px) and (max-width: 374px) {
+  .container .left-container header .header a {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+  .container .left-container section {
+    width: 90%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f5fa));
+    background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
+    margin: 200px auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .left-container section .cupImage {
+    margin-left: 10%;
+    padding-top: 20px;
+  }
+  .container .left-container section h1 {
+    font-size: 28px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 15px;
+  }
+  .container .left-container section p {
+    margin-left: 10%;
+    font-size: 15px;
+    margin-right: 10%;
+  }
+  .container .left-container section form {
+    margin: 0;
+  }
+  .container .left-container section form .arrow-div {
+    width: 100%;
+  }
+  .container .left-container section form .arrow-div input[type="text"] {
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 426px) and (min-width: 320px) and (max-width: 374px) {
+  .container .left-container section form .arrow-div input[type="text"] {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+  .container .left-container section form .arrow-div a {
+    text-decoration: none;
+  }
+  .container .left-container section form .arrow-div a button {
+    margin-right: 20px;
+    top: 19px;
+    font-size: 25px;
+  }
+  .container .left-container section form .inner-checkbox {
+    margin: 0;
+    margin-left: 10%;
+  }
+  .container .left-container section .media {
+    margin: 0;
+    padding: 30px;
+  }
+  .container .left-container section .media::before {
+    width: 70%;
+    margin-top: -25px;
+  }
+  .container .right-container {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
