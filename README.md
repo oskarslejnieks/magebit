@@ -8,7 +8,7 @@
 
 3. Open your browser and go to: https://github.com/oskarslejnieks/magebit
 
-4. Under Code Copy this link: https://github.com/oskarslejnieks/magebit.git
+4. Under Code -> Copy this link: https://github.com/oskarslejnieks/magebit.git
 
 5. Go back to cmd (or terminal) and type in this code: "git clone https://github.com/oskarslejnieks/magebit.git"
 
