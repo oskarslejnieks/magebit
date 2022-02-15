@@ -72,7 +72,7 @@ body {
 }
 
 .container .left-container section {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .container .left-container section h1 {
@@ -94,6 +94,9 @@ body {
   line-height: 28px;
   color: #131821;
   margin: 20px 0;
+}
+
+.container .left-container section #paragraph1 {
   margin-left: 100px;
 }
 
@@ -150,8 +153,7 @@ body {
 }
 
 .container .left-container section form .arrow-div .errorOutput {
-  color: red;
-  margin: 0;
+  margin-left: 10px;
 }
 
 .container .left-container section form .inner-checkbox {
@@ -173,13 +175,13 @@ body {
   margin-bottom: 20px;
 }
 
-.container .left-container section form .inner-checkbox p {
+.container .left-container section form .inner-checkbox .checkBoxText {
   padding: 0;
   margin: 0;
   margin-left: 20px;
 }
 
-.container .left-container section form .inner-checkbox p a {
+.container .left-container section form .inner-checkbox .checkBoxText a {
   text-decoration: none;
   color: black;
 }
@@ -468,7 +470,7 @@ table td {
     width: 90%;
     background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f5fa));
     background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
-    margin: 200px auto;
+    margin: 100px auto;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -487,6 +489,9 @@ table td {
     margin-left: 10%;
     font-size: 15px;
     margin-right: 10%;
+  }
+  .container .left-container section #paragraph1 {
+    margin-left: 10%;
   }
   .container .left-container section form {
     margin: 0;
@@ -509,6 +514,10 @@ table td {
 }
 
 @media (min-width: 320px) and (max-width: 426px) {
+  .container .left-container section form .arrow-div .errorOutput {
+    margin-left: 10%;
+    color: red;
+  }
   .container .left-container section form .arrow-div a {
     text-decoration: none;
   }

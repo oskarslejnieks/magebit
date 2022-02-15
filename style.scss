@@ -9,7 +9,7 @@ $blueColor: #4066a5;
   line-height: $lineHeight;
   color: #131821;
   margin: 20px 0;
-  margin-left: 100px;
+  
 }
 @mixin mediaIcons() {
   cursor: pointer;
@@ -94,13 +94,16 @@ body {
       }
     }
     section {
-      margin-top: 150px;
+      margin-top: 100px;
 
       h1 {
         @include textStyling(Georgia, 32px, 44px);
-      }
+        margin-left: 100px;      }
       p {
         @include textStyling(Arial, 16px, 28px);
+      }
+      #paragraph1 {
+        margin-left: 100px;
       }
       .cupImage {
         margin-left: 100px;
@@ -143,8 +146,8 @@ body {
             border-left: 4px solid $blueColor;
           }
           .errorOutput {
-            color: red;
-            margin: 0;
+            
+            margin-left: 10px;
           }
         }
 
@@ -160,7 +163,7 @@ body {
             display: flex;
             margin-bottom: 20px;
           }
-          p {
+          .checkBoxText {
             padding: 0;
             margin: 0;
             margin-left: 20px;
@@ -299,7 +302,7 @@ table {
       section {
         width: 90%;
         background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
-        margin: 200px auto;
+        margin: 100px auto;
         justify-content: center;
         .cupImage {
           margin-left: 10%;
@@ -316,6 +319,9 @@ table {
           font-size: 15px;
           margin-right: 10%;
         }
+        #paragraph1 {
+          margin-left: 10%;
+        }
         
         form {
           margin: 0;
@@ -330,6 +336,10 @@ table {
               @media (min-width: 320px) and (max-width: 374px) {
                 font-size: 11px;
               }
+            }
+            .errorOutput {
+              margin-left: 10%;
+              color: red;
             }
             a {
               text-decoration: none;

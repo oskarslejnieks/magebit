@@ -20,22 +20,22 @@
                                                                                                                                 echo 'style="border: 1px solid #e3e3e4; border-left: 4px solid #4066a5;"';
                                                                                                                             }
                                                                                                                         } ?>>
-                        <p id="errorOutput" style="margin: 10px 0; color: red;"></p>
+                        <p id="errorOutput"></p>
 
                         <?php
 
                         if (isset($_GET['error'])) {
                             if ($_GET['error'] == 'emptyinput') {
-                                echo "<p id='errorOutput' style='margin: 10px 0; color: red;'>Email address is required</p>";
+                                echo "<p id='errorOutput' style='color: red;'>Email address is required</p>";
                             }
                             if ($_GET['error'] == 'emptycheckbox') {
-                                echo "<p id='errorOutput' style='margin: 10px 0; color: red;'>You must accept the terms and conditions</p>";
+                                echo "<p id='errorOutput' style='color: red;'>You must accept the terms and conditions</p>";
                             }
                             if ($_GET['error'] == 'invalidemail') {
-                                echo "<p id='errorOutput' style='margin: 10px 0; color: red;'>Please, provide a valid email</p>";
+                                echo "<p id='errorOutput' style='color: red;'>Please, provide a valid email</p>";
                             }
                             if ($_GET['error'] == 'invalidcoemail') {
-                                echo "<p id='errorOutput' style='margin: 10px 0; color: red;'>We are not accepting subscriptions from Colombia emails</p>";
+                                echo "<p id='errorOutput' style='color: red;''>We are not accepting subscriptions from Colombia emails</p>";
                             }
                         }
 
@@ -43,7 +43,7 @@
                     </div>
                     <div class="inner-checkbox" id="checkboxForm">
                         <input id="checkTerms" type="checkbox" name="checkbox">
-                        <p>I agree to <u><strong><a href="#">terms of service</a></strong></u></p>
+                        <p class="checkBoxText">I agree to <u><strong><a href="#">terms of service</a></strong></u></p>
                     </div>
 
                 </form>
