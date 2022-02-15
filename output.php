@@ -41,7 +41,6 @@
         include_once 'classes/dbh.php';
         include_once 'classes/emailClass.php';
         include_once 'classes/emailController.php';
-        include_once 'classes/dhb-test.php';
 
 
         $emailObject = new EmailController();
